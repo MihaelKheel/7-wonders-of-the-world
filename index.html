@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" author="" content="width=device-width, initial-scale=1.0">
+    <title>7 wonders of the world</title>
+
+    <style>
+        :root{
+            --background-color: #101414;
+            --text-color: #969aa4;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        *{
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+        }
+        
+        body{
+            background-color: var(--background-color);
+            width: 95%;
+            margin: 0 auto;
+        }
+        
+        main{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+        
+        .main-title{
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .title{
+            font-size: 1.5rem;
+        }
+
+        img{
+            width: 100%; 
+            height: 10rem;
+            margin: .75rem 0 0 0;
+        }
+
+
+        .container{
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.5px);
+            -webkit-backdrop-filter: blur(5.5px);
+            border: 1px solid rgba(255, 255, 255, 0.29);
+
+            text-align: center;
+            padding: 1.25rem 1rem;
+        }
+
+        .container .place{
+            text-align: start;
+            opacity: .5;
+            font-size: .75rem;
+            margin-bottom: .5rem;
+        }
+
+        .container .desc{
+            text-align: justify;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="main-title">Seven Wonders of the World</h1>
+    <main>
+        <div class="container">
+            <h1 class="title">Louvre Paris</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Louvre_Museum_Wikimedia_Commons.jpg" alt="Great wall of china">
+            <p class="place">France</p>
+            <p class="desc">One of the world's most renowned museums, housed in a historic palace. Home to an extensive collection of art and artifacts, including the iconic Mona Lisa. A cultural treasure trove that showcases centuries of human creativity and history. A must-visit destination for art enthusiasts and history buffs alike.</p>
+        </div>
+
+        <div class="container">
+            <h1 class="title">Mt. Fuji</h1>
+            <img src="https://content.api.news/v3/images/bin/19baaccb3d706775bb9c3bbe2f946bb3" alt="Great wall of china">
+            <p class="place">Japan</p>
+            <p class="desc">A majestic and iconic volcanic mountain located southwest of Tokyo. Standing at 3,776 meters, it is Japan's highest peak. Known for its symmetrical cone shape and snow-capped summit, Mt. Fuji is a UNESCO World Heritage site and a popular destination for climbers and nature enthusiasts. Its beauty and spiritual significance make it a symbol of Japan's natural splendor.</p>
+        </div>
+
+        <div class="container">
+            <h1 class="title">El Nido</h1>
+            <img src="https://lp-cms-production.imgix.net/features/2019/05/Palawan-travel-936549056388.jpg?auto=format&w=730&h=630&fit=crop&q=75" alt="Great wall of china">
+            <p class="place">Philippines</p>
+            <p class="desc">A tropical paradise nestled in the Palawan province. With its crystal-clear turquoise waters, limestone cliffs, and pristine white sand beaches, El Nido is a haven for beach lovers and island adventurers. Explore hidden lagoons, vibrant coral reefs, and stunning karst landscapes.</p>
+        </div>
+
+        <div class="container">
+            <h1 class="title">Skaftafell Ice Cave</h1>
+            <img src="https://c4.wallpaperflare.com/wallpaper/606/989/262/water-glacier-ice-cave-cave-wallpaper-preview.jpg" alt="Great wall of china">
+            <p class="place">Iceland</p>
+            <p class="desc">A captivating natural marvel located within Vatnajökull National Park. This ethereal ice cave showcases mesmerizing blue ice formations and breathtaking glacial landscapes. A must-visit destination for adventurers and nature lovers seeking the beauty and wonder of Iceland's icy wonders</p>
+        </div>
+
+        <div class="container">
+            <h1 class="title">Kita-Kamakura</h1>
+            <img src="https://content.fun-japan.jp/renewal-prod/cms/articles/content/cd545676dde9eb763045e743d2f39cd836157fe7.JPG" alt="Kita-Kamakura">
+            <p class="place">Japan</p>
+            <p class="desc">A charming historic town located south of Tokyo, known for its numerous temples and shrines, including the famous Zeniarai Benzaiten Ugafuku Shrine. A popular destination for those seeking a peaceful escape from the hustle and bustle of the city, offering serene nature trails, traditional architecture, and a glimpse into Japan's rich cultural heritage.</p>
+        </div>
+        
+        <div class="container">
+            <h1 class="title">La Palma</h1>
+            <img src="https://c4.wallpaperflare.com/wallpaper/240/303/581/starry-sky-la-palma-spain-night-wallpaper-preview.jpg" alt="La Palma">
+            <p class="place">Spain</p>
+            <p class="desc">A volcanic island in the Canary Islands archipelago known for its rugged, natural beauty, including lush forests, black sand beaches, and towering cliffs. A paradise for hikers and stargazers, offering breathtaking views of the night sky and stunning landscapes at every turn.</p>
+        </div>
+
+        <div class="container">
+            <h1 class="title">Banff</h1>
+            <img src="https://tinyurl.com/3neccc9c" alt="Meigetsuin">
+            <p class="place">Canada</p>
+            <p class="desc">Majestic Rocky Mountain town known for its stunning natural beauty, including turquoise lakes, towering peaks, and abundant wildlife. A paradise for outdoor enthusiasts, offering hiking, skiing, and breathtaking vistas at every turn.</p>
+        </div>
+    </main>
+
+</body>
+</html>
